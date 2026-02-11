@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.github.followlemmi.kanagawa</id>
+    <name>Kanagawa Colors Theme</name>
+    <vendor>followLemmi</vendor>
+    <description><![CDATA[
+        A JetBrains theme inspired by the colors of the famous painting by Katsushika Hokusai.
+        Three variants: Wave (dark default), Dragon (dark muted), Lotus (light).
+    ]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <idea-version since-build="242"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.followlemmi.kanagawa.wave"
+                       path="/themes/kanagawa_wave.theme.json"/>
+        <themeProvider id="com.github.followlemmi.kanagawa.dragon"
+                       path="/themes/kanagawa_dragon.theme.json"/>
+        <themeProvider id="com.github.followlemmi.kanagawa.lotus"
+                       path="/themes/kanagawa_lotus.theme.json"/>
+    </extensions>
+</idea-plugin>
