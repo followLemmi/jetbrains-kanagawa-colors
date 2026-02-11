@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F1F28"/>
+      <stop offset="100%" stop-color="#16161D"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7E9CD8"/>
+      <stop offset="50%" stop-color="#7FB4CA"/>
+      <stop offset="100%" stop-color="#6A9589"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#957FB8"/>
+      <stop offset="60%" stop-color="#7E9CD8"/>
+      <stop offset="100%" stop-color="#7FB4CA"/>
+    </linearGradient>
+    <linearGradient id="foam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DCD7BA"/>
+      <stop offset="100%" stop-color="#C8C093"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DCA561"/>
+      <stop offset="100%" stop-color="#FF9E3B"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#DCA561" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#DCA561" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="roundRect">
+      <rect width="512" height="512" rx="100" ry="100"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundRect)">
+    <!-- Background -->
+    <rect width="512" height="512" fill="url(#bg)"/>
+
+    <!-- Stars / dots -->
+    <circle cx="80" cy="60" r="1.5" fill="#54546D" opacity="0.7"/>
+    <circle cx="150" cy="40" r="1" fill="#54546D" opacity="0.5"/>
+    <circle cx="250" cy="80" r="1.2" fill="#54546D" opacity="0.6"/>
+    <circle cx="430" cy="50" r="1.5" fill="#54546D" opacity="0.7"/>
+    <circle cx="370" cy="90" r="1" fill="#54546D" opacity="0.5"/>
+    <circle cx="460" cy="110" r="0.8" fill="#54546D" opacity="0.4"/>
+    <circle cx="50" cy="130" r="1" fill="#54546D" opacity="0.5"/>
+    <circle cx="200" cy="120" r="1.3" fill="#54546D" opacity="0.6"/>
+
+    <!-- Moon glow -->
+    <circle cx="400" cy="140" r="80" fill="url(#moonGlow)"/>
+    <!-- Moon -->
+    <circle cx="400" cy="140" r="22" fill="url(#moon)" opacity="0.9"/>
+    <!-- Moon inner shadow -->
+    <circle cx="406" cy="136" r="20" fill="#1F1F28" opacity="0.15"/>
+
+    <!-- Far background wave (subtle) -->
+    <path d="M0 360 Q60 310 120 330 Q180 350 220 320 Q260 290 310 310 Q360 330 400 300 Q440 270 480 290 Q510 300 512 310 L512 512 L0 512 Z"
+          fill="#223249" opacity="0.5"/>
+
+    <!-- Main large wave - the iconic Great Wave shape -->
+    <path d="M-20 400
+             Q30 340 80 350
+             Q110 356 130 340
+             Q150 324 170 300
+             Q190 270 210 240
+             Q230 210 260 200
+             Q280 193 290 210
+             Q300 230 310 260
+             Q320 290 350 310
+             Q380 330 420 320
+             Q460 310 490 330
+             Q510 340 532 350
+             L532 512 L-20 512 Z"
+          fill="url(#wave1)"/>
+
+    <!-- Wave crest curl -->
+    <path d="M210 240
+             Q225 215 250 205
+             Q265 200 275 208
+             Q285 216 280 230
+             Q275 240 260 245
+             Q240 250 225 248
+             Q215 246 210 240 Z"
+          fill="url(#wave2)" opacity="0.7"/>
+
+    <!-- Secondary wave -->
+    <path d="M-20 420
+             Q40 380 100 395
+             Q140 405 170 385
+             Q200 365 240 370
+             Q280 375 320 360
+             Q360 345 400 360
+             Q440 375 480 365
+             Q510 358 532 370
+             L532 512 L-20 512 Z"
+          fill="#2D4F67"/>
+
+    <!-- Foam/spray on main wave crest -->
+    <path d="M200 245 Q205 230 215 225 Q220 223 218 228 Q215 235 210 240 Z" fill="url(#foam)" opacity="0.8"/>
+    <path d="M245 207 Q250 198 258 200 Q262 202 258 208 Q254 212 248 210 Z" fill="url(#foam)" opacity="0.7"/>
+    <path d="M230 215 Q235 208 242 210 Q245 213 240 218 Q236 220 232 218 Z" fill="url(#foam)" opacity="0.6"/>
+
+    <!-- Foam dots -->
+    <circle cx="220" cy="235" r="3" fill="#DCD7BA" opacity="0.6"/>
+    <circle cx="235" cy="225" r="2" fill="#DCD7BA" opacity="0.5"/>
+    <circle cx="255" cy="215" r="2.5" fill="#DCD7BA" opacity="0.5"/>
+    <circle cx="268" cy="220" r="2" fill="#C8C093" opacity="0.4"/>
+    <circle cx="195" cy="252" r="2" fill="#DCD7BA" opacity="0.4"/>
+    <circle cx="242" cy="232" r="1.5" fill="#DCD7BA" opacity="0.5"/>
+
+    <!-- Deeper water layer -->
+    <path d="M-20 440
+             Q50 415 120 430
+             Q180 442 240 425
+             Q300 410 360 420
+             Q420 430 480 418
+             Q510 412 532 420
+             L532 512 L-20 512 Z"
+          fill="#223249"/>
+
+    <!-- Bottom dark water -->
+    <path d="M-20 470
+             Q60 455 140 465
+             Q220 475 300 460
+             Q380 448 460 458
+             Q510 465 532 460
+             L532 512 L-20 512 Z"
+          fill="#1F1F28" opacity="0.6"/>
+
+    <!-- Subtle wave highlights -->
+    <path d="M80 355 Q100 348 120 342 Q130 340 125 346 Q115 352 100 356 Q90 358 80 355 Z"
+          fill="#DCD7BA" opacity="0.15"/>
+    <path d="M350 315 Q370 310 390 318 Q395 322 385 322 Q370 318 355 320 Z"
+          fill="#DCD7BA" opacity="0.12"/>
+
+    <!-- Kanagawa text -->
+    <text x="256" y="495"
+          font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="36"
+          font-weight="700"
+          fill="#DCD7BA"
+          text-anchor="middle"
+          letter-spacing="8"
+          opacity="0.85">KANAGAWA</text>
+  </g>
+</svg>

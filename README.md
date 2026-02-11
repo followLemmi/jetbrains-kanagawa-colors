@@ -1,41 +1,72 @@
-# Kanagawa Colors Theme for JetBrains
+<div align="center">
 
-A JetBrains IDE theme inspired by [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) — the colors of the famous painting by Katsushika Hokusai.
+<img src="src/main/resources/META-INF/pluginIcon.svg" width="120" height="120" alt="Kanagawa Colors">
 
-## Variants
+# Kanagawa Colors Theme
 
-### Wave (Dark Default)
-The default dark theme with deep ocean-inspired colors. Rich contrast with warm foreground tones against cool dark backgrounds.
+A JetBrains IDE color theme inspired by [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) — the iconic palette of *The Great Wave off Kanagawa* by Katsushika Hokusai.
 
-### Dragon (Dark Muted)
-A more subdued dark variant with earthy, muted tones. Lower contrast for extended coding sessions.
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/com.github.followlemmi.kanagawa?label=Marketplace&color=7E9CD8&style=flat-square)](https://plugins.jetbrains.com/plugin/com.github.followlemmi.kanagawa)
+[![License: MIT](https://img.shields.io/badge/License-MIT-DCA561?style=flat-square)](LICENSE)
 
-### Lotus (Light)
-A warm light theme with parchment-inspired backgrounds and rich, saturated syntax colors.
+</div>
+
+---
+
+## Wave — Dark Default
+
+Deep ocean tones with warm foreground colors. Rich contrast for everyday use.
+
+<p>
+  <img src="screenshots/wave_1.png" width="49%" alt="Wave — editor">
+  <img src="screenshots/wave_2.png" width="49%" alt="Wave — completion">
+</p>
+
+## Dragon — Dark Muted
+
+Earthy, subdued palette with lower contrast. Easy on the eyes for long sessions.
+
+<p>
+  <img src="screenshots/dragon_1.png" width="49%" alt="Dragon — editor">
+  <img src="screenshots/dragon_2.png" width="49%" alt="Dragon — completion">
+</p>
+
+## Lotus — Light
+
+Warm parchment backgrounds with rich, saturated syntax colors.
+
+<p>
+  <img src="screenshots/lotus_1.png" width="49%" alt="Lotus — editor">
+  <img src="screenshots/lotus_2.png" width="49%" alt="Lotus — completion">
+</p>
+
+---
 
 ## Installation
 
 ### From JetBrains Marketplace
-1. Open your JetBrains IDE
-2. Go to **Settings** > **Plugins** > **Marketplace**
-3. Search for "Kanagawa Colors Theme"
-4. Click **Install** and restart the IDE
+
+1. Open **Settings** > **Plugins** > **Marketplace**
+2. Search for **Kanagawa Colors Theme**
+3. Click **Install** and restart the IDE
 
 ### From Disk
-1. Download the latest release `.zip` from [Releases](https://github.com/followLemmi/jetbrains-kanagawa-colors/releases)
-2. Go to **Settings** > **Plugins** > gear icon > **Install Plugin from Disk...**
-3. Select the downloaded `.zip` file and restart the IDE
+
+1. Download the latest `.zip` from [Releases](https://github.com/followLemmi/jetbrains-kanagawa-colors/releases)
+2. **Settings** > **Plugins** > gear icon > **Install Plugin from Disk...**
+3. Select the `.zip` and restart
 
 ### Activate
-Go to **Settings** > **Appearance & Behavior** > **Appearance** > **Theme** and select one of:
-- Kanagawa Wave
-- Kanagawa Dragon
-- Kanagawa Lotus
+
+**Settings** > **Appearance & Behavior** > **Appearance** > **Theme** and choose:
+- **Kanagawa Wave**
+- **Kanagawa Dragon**
+- **Kanagawa Lotus**
 
 ## Compatibility
 
-- IntelliJ IDEA 2024.2+ (New UI / Islands)
-- All JetBrains IDEs based on IntelliJ Platform 2024.2+
+- IntelliJ IDEA 2024.2+
+- All JetBrains IDEs based on IntelliJ Platform 2024.2+ (WebStorm, PyCharm, GoLand, CLion, etc.)
 
 ## Building from Source
 
@@ -43,9 +74,9 @@ Go to **Settings** > **Appearance & Behavior** > **Appearance** > **Theme** and 
 ./gradlew buildPlugin
 ```
 
-The plugin ZIP will be created in `build/distributions/`.
+The plugin `.zip` will be in `build/distributions/`.
 
-To test in a sandboxed IDE instance:
+To launch a sandboxed IDE for testing:
 
 ```bash
 ./gradlew runIde
@@ -54,7 +85,7 @@ To test in a sandboxed IDE instance:
 ## Credits
 
 - Color palette by [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
-- Inspired by "The Great Wave off Kanagawa" by Katsushika Hokusai
+- Inspired by *The Great Wave off Kanagawa* by Katsushika Hokusai
 
 ## License
 
