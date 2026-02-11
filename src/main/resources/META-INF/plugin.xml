@@ -3,8 +3,36 @@
     <name>Kanagawa Colors Theme</name>
     <vendor>followLemmi</vendor>
     <description><![CDATA[
-        A JetBrains theme inspired by the colors of the famous painting by Katsushika Hokusai.
-        Three variants: Wave (dark default), Dragon (dark muted), Lotus (light).
+<p>A color theme inspired by <a href="https://github.com/rebelot/kanagawa.nvim">kanagawa.nvim</a> — the iconic palette of <em>The Great Wave off Kanagawa</em> by Katsushika Hokusai.</p>
+
+<h2>Wave — Dark Default</h2>
+<p>Deep ocean tones with warm foreground colors. Rich contrast for everyday use.</p>
+<p>
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/wave_1.png" alt="Wave — editor" width="48%">
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/wave_2.png" alt="Wave — completion" width="48%">
+</p>
+
+<h2>Dragon — Dark Muted</h2>
+<p>Earthy, subdued palette with lower contrast. Easy on the eyes for long sessions.</p>
+<p>
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/dragon_1.png" alt="Dragon — editor" width="48%">
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/dragon_2.png" alt="Dragon — completion" width="48%">
+</p>
+
+<h2>Lotus — Light</h2>
+<p>Warm parchment backgrounds with rich, saturated syntax colors.</p>
+<p>
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/lotus_1.png" alt="Lotus — editor" width="48%">
+  <img src="https://raw.githubusercontent.com/followLemmi/jetbrains-kanagawa-colors/main/screenshots/lotus_2.png" alt="Lotus — completion" width="48%">
+</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Three variants: Wave (dark), Dragon (dark muted), Lotus (light)</li>
+  <li>Carefully tuned editor colors, UI chrome, and syntax highlighting</li>
+  <li>Designed for Islands UI (IntelliJ 2024.2+)</li>
+  <li>Works with all JetBrains IDEs: IntelliJ IDEA, WebStorm, PyCharm, GoLand, CLion, and more</li>
+</ul>
     ]]></description>
     <depends>com.intellij.modules.platform</depends>
     <idea-version since-build="242"/>
