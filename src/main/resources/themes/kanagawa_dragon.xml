@@ -541,7 +541,7 @@
     <!-- Diff -->
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="2B3328" />
+        <option name="BACKGROUND" value="28452D" />
       </value>
     </option>
 
@@ -553,7 +553,7 @@
 
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="252535" />
+        <option name="BACKGROUND" value="26264C" />
       </value>
     </option>
 

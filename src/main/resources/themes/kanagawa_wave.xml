@@ -524,7 +524,7 @@
     <!-- Diff: exact kanagawa winter* colors -->
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="2B3328" />
+        <option name="BACKGROUND" value="2D4A32" />
       </value>
     </option>
 
@@ -536,7 +536,7 @@
 
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="252535" />
+        <option name="BACKGROUND" value="2D2E52" />
       </value>
     </option>
 

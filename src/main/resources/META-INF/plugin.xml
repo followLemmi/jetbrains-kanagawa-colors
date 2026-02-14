@@ -35,6 +35,11 @@
 </ul>
     ]]></description>
     <change-notes><![CDATA[
+<h3>1.2.0</h3>
+<ul>
+  <li>Improve diff viewer colors — inserted and modified line backgrounds are now clearly visible in all three themes</li>
+</ul>
+
 <h3>1.1.0</h3>
 <ul>
   <li>Fix text selection visibility in Wave and Dragon themes — selection highlight was nearly indistinguishable from the editor background</li>
